@@ -1,0 +1,24 @@
+Success!
+cpu backbone= gat feat= ./Dataset/Graph/node_feature_82d_sub.csv
+******************** The 1 Fold ********************
+best_epoch 100 best_test_f_1 0.4188
+******************** The 2 Fold ********************
+best_epoch 099 best_test_f_1 0.2677
+******************** The 3 Fold ********************
+best_epoch 011 best_test_f_1 0.3424
+******************** The 4 Fold ********************
+best_epoch 011 best_test_f_1 0.3080
+******************** The 5 Fold ********************
+best_epoch 011 best_test_f_1 0.1758
+******************** The 6 Fold ********************
+best_epoch 019 best_test_f_1 0.4559
+******************** The 7 Fold ********************
+best_epoch 011 best_test_f_1 0.2146
+******************** The 8 Fold ********************
+best_epoch 011 best_test_f_1 0.3799
+******************** The 9 Fold ********************
+best_epoch 011 best_test_f_1 0.4210
+******************** The 10 Fold ********************
+best_epoch 011 best_test_f_1 0.3724
+MEANS {'test_accuracy': 0.5937, 'test_precision': 0.2876, 'test_recall': 0.4347, 'test_f_1': 0.3356, 'test_FPR': 0.3533, 'test_FNR': 0.5653, 'test_auc': 0.5552}
+time 410.7 s

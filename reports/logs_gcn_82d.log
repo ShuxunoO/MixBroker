@@ -1,0 +1,24 @@
+Success!
+cpu backbone= gcn feat= ./Dataset/Graph/node_feature_82d_sub.csv
+******************** The 1 Fold ********************
+best_epoch 011 best_test_f_1 0.3065
+******************** The 2 Fold ********************
+best_epoch 011 best_test_f_1 0.3251
+******************** The 3 Fold ********************
+best_epoch 011 best_test_f_1 0.2404
+******************** The 4 Fold ********************
+best_epoch 011 best_test_f_1 0.2935
+******************** The 5 Fold ********************
+best_epoch 011 best_test_f_1 0.1198
+******************** The 6 Fold ********************
+best_epoch 011 best_test_f_1 0.3512
+******************** The 7 Fold ********************
+best_epoch 012 best_test_f_1 0.4248
+******************** The 8 Fold ********************
+best_epoch 011 best_test_f_1 0.2961
+******************** The 9 Fold ********************
+best_epoch 011 best_test_f_1 0.2861
+******************** The 10 Fold ********************
+best_epoch 099 best_test_f_1 0.3194
+MEANS {'test_accuracy': 0.6674, 'test_precision': 0.3408, 'test_recall': 0.2957, 'test_f_1': 0.2963, 'test_FPR': 0.2087, 'test_FNR': 0.7043, 'test_auc': 0.5863}
+time 353.3 s

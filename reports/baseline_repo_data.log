@@ -1,0 +1,78 @@
+Success!
+cpu
+******************** The 1 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 184], edge_label=[184], edge_label_index=[2, 184])
+Data(x=[68419, 42], edge_index=[2, 22], edge_label=[22], edge_label_index=[2, 22])
+Data load succeed!
+False
+best_epoch 011 best_test_f_1 0.8333
+******************** The 2 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 184], edge_label=[184], edge_label_index=[2, 184])
+Data(x=[68419, 42], edge_index=[2, 22], edge_label=[22], edge_label_index=[2, 22])
+Data load succeed!
+False
+best_epoch 079 best_test_f_1 0.7000
+******************** The 3 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 184], edge_label=[184], edge_label_index=[2, 184])
+Data(x=[68419, 42], edge_index=[2, 22], edge_label=[22], edge_label_index=[2, 22])
+Data load succeed!
+False
+best_epoch 038 best_test_f_1 0.7619
+******************** The 4 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 186], edge_label=[186], edge_label_index=[2, 186])
+Data(x=[68419, 42], edge_index=[2, 20], edge_label=[20], edge_label_index=[2, 20])
+Data load succeed!
+False
+best_epoch 013 best_test_f_1 0.9524
+******************** The 5 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 186], edge_label=[186], edge_label_index=[2, 186])
+Data(x=[68419, 42], edge_index=[2, 20], edge_label=[20], edge_label_index=[2, 20])
+Data load succeed!
+False
+best_epoch 015 best_test_f_1 0.8889
+******************** The 6 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 186], edge_label=[186], edge_label_index=[2, 186])
+Data(x=[68419, 42], edge_index=[2, 20], edge_label=[20], edge_label_index=[2, 20])
+Data load succeed!
+False
+best_epoch 028 best_test_f_1 0.8333
+******************** The 7 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 186], edge_label=[186], edge_label_index=[2, 186])
+Data(x=[68419, 42], edge_index=[2, 20], edge_label=[20], edge_label_index=[2, 20])
+Data load succeed!
+False
+best_epoch 014 best_test_f_1 0.9524
+******************** The 8 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 186], edge_label=[186], edge_label_index=[2, 186])
+Data(x=[68419, 42], edge_index=[2, 20], edge_label=[20], edge_label_index=[2, 20])
+Data load succeed!
+False
+best_epoch 049 best_test_f_1 0.8889
+******************** The 9 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 186], edge_label=[186], edge_label_index=[2, 186])
+Data(x=[68419, 42], edge_index=[2, 20], edge_label=[20], edge_label_index=[2, 20])
+Data load succeed!
+False
+best_epoch 017 best_test_f_1 0.8889
+******************** The 10 Fold ing.... ********************
+Data(x=[68419, 42], edge_index=[2, 186], edge_label=[186], edge_label_index=[2, 186])
+Data(x=[68419, 42], edge_index=[2, 20], edge_label=[20], edge_label_index=[2, 20])
+Data load succeed!
+False
+best_epoch 011 best_test_f_1 0.8000
+        test_accuracy  ...            test_auc
+0                 0.8  ...                0.84
+1                 0.9  ...  0.9200000000000002
+2                 0.9  ...                0.89
+3                0.95  ...                0.96
+4                 0.8  ...                0.87
+5                 0.9  ...                0.88
+6                0.95  ...                0.96
+7  0.7727272727272727  ...  0.8099173553719009
+8  0.7272727272727273  ...  0.7933884297520661
+9  0.8181818181818182  ...  0.8264462809917356
+
+[10 rows x 7 columns]
+mean_test_accuracy 0.8518181818181818 test_precision 0.8679476079476081 test_recall 0.8472727272727273 test_f_1 0.85 test_FPR 0.14363636363636365 test_FNR 0.15272727272727274 test_auc 0.8749752066115704
+test_accuracy_std 0.0778262999635976 test_precision_std 0.10874046069665035 test_recall_std 0.1254413695320752 test_f_1_std 0.08084077793107397 test_FPR_std 0.13088664229520572 test_FNR_std 0.12544136953207521 test_auc_std 0.05890543882881112
+Total time cost: 85.01188186416402

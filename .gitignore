@@ -1,0 +1,45 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local environment files
+.env
+.env.*
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated experiment outputs
+reports/
+run_tc/__pycache__/
+run_tc/*.log
+run_tc/result_*.csv
+run_tc/result_*.json
+run_tc/results_*.csv
+run_tc/results_*.json
+run_tc/matrix*.log
+run_tc/timing.log
+run_tc/run_ours.log
+run_tc/Dataset/Graph/node_feature_normalized.csv
+run_tc/Dataset/Graph/node_feature_82d_normalized.csv

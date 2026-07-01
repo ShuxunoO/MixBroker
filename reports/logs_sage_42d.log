@@ -1,0 +1,24 @@
+Success!
+cpu backbone= sage feat= ./Dataset/Graph/node_feature_42d_sub.csv
+******************** The 1 Fold ********************
+best_epoch 028 best_test_f_1 0.6936
+******************** The 2 Fold ********************
+best_epoch 039 best_test_f_1 0.6895
+******************** The 3 Fold ********************
+best_epoch 021 best_test_f_1 0.6857
+******************** The 4 Fold ********************
+best_epoch 051 best_test_f_1 0.6598
+******************** The 5 Fold ********************
+best_epoch 030 best_test_f_1 0.7126
+******************** The 6 Fold ********************
+best_epoch 057 best_test_f_1 0.7016
+******************** The 7 Fold ********************
+best_epoch 019 best_test_f_1 0.7211
+******************** The 8 Fold ********************
+best_epoch 058 best_test_f_1 0.6916
+******************** The 9 Fold ********************
+best_epoch 025 best_test_f_1 0.7123
+******************** The 10 Fold ********************
+best_epoch 064 best_test_f_1 0.7130
+MEANS {'test_accuracy': 0.8605, 'test_precision': 0.7606, 'test_recall': 0.6455, 'test_f_1': 0.6981, 'test_FPR': 0.0678, 'test_FNR': 0.3545, 'test_auc': 0.8568}
+time 686.3 s
