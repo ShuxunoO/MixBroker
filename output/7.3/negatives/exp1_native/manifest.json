@@ -1,0 +1,322 @@
+{
+  "n_pos": 103,
+  "deposit_pool": 30823,
+  "withdraw_pool": 44815,
+  "ratios": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "seeds": 5,
+  "role_mode": "count",
+  "candidate_space": 1381332745,
+  "files": [
+    {
+      "ratio": 1,
+      "seed": 0,
+      "n_neg": 103,
+      "file": "neg_r1_s0.csv"
+    },
+    {
+      "ratio": 2,
+      "seed": 0,
+      "n_neg": 206,
+      "file": "neg_r2_s0.csv"
+    },
+    {
+      "ratio": 3,
+      "seed": 0,
+      "n_neg": 309,
+      "file": "neg_r3_s0.csv"
+    },
+    {
+      "ratio": 4,
+      "seed": 0,
+      "n_neg": 412,
+      "file": "neg_r4_s0.csv"
+    },
+    {
+      "ratio": 5,
+      "seed": 0,
+      "n_neg": 515,
+      "file": "neg_r5_s0.csv"
+    },
+    {
+      "ratio": 6,
+      "seed": 0,
+      "n_neg": 618,
+      "file": "neg_r6_s0.csv"
+    },
+    {
+      "ratio": 7,
+      "seed": 0,
+      "n_neg": 721,
+      "file": "neg_r7_s0.csv"
+    },
+    {
+      "ratio": 8,
+      "seed": 0,
+      "n_neg": 824,
+      "file": "neg_r8_s0.csv"
+    },
+    {
+      "ratio": 9,
+      "seed": 0,
+      "n_neg": 927,
+      "file": "neg_r9_s0.csv"
+    },
+    {
+      "ratio": 10,
+      "seed": 0,
+      "n_neg": 1030,
+      "file": "neg_r10_s0.csv"
+    },
+    {
+      "ratio": 1,
+      "seed": 1,
+      "n_neg": 103,
+      "file": "neg_r1_s1.csv"
+    },
+    {
+      "ratio": 2,
+      "seed": 1,
+      "n_neg": 206,
+      "file": "neg_r2_s1.csv"
+    },
+    {
+      "ratio": 3,
+      "seed": 1,
+      "n_neg": 309,
+      "file": "neg_r3_s1.csv"
+    },
+    {
+      "ratio": 4,
+      "seed": 1,
+      "n_neg": 412,
+      "file": "neg_r4_s1.csv"
+    },
+    {
+      "ratio": 5,
+      "seed": 1,
+      "n_neg": 515,
+      "file": "neg_r5_s1.csv"
+    },
+    {
+      "ratio": 6,
+      "seed": 1,
+      "n_neg": 618,
+      "file": "neg_r6_s1.csv"
+    },
+    {
+      "ratio": 7,
+      "seed": 1,
+      "n_neg": 721,
+      "file": "neg_r7_s1.csv"
+    },
+    {
+      "ratio": 8,
+      "seed": 1,
+      "n_neg": 824,
+      "file": "neg_r8_s1.csv"
+    },
+    {
+      "ratio": 9,
+      "seed": 1,
+      "n_neg": 927,
+      "file": "neg_r9_s1.csv"
+    },
+    {
+      "ratio": 10,
+      "seed": 1,
+      "n_neg": 1030,
+      "file": "neg_r10_s1.csv"
+    },
+    {
+      "ratio": 1,
+      "seed": 2,
+      "n_neg": 103,
+      "file": "neg_r1_s2.csv"
+    },
+    {
+      "ratio": 2,
+      "seed": 2,
+      "n_neg": 206,
+      "file": "neg_r2_s2.csv"
+    },
+    {
+      "ratio": 3,
+      "seed": 2,
+      "n_neg": 309,
+      "file": "neg_r3_s2.csv"
+    },
+    {
+      "ratio": 4,
+      "seed": 2,
+      "n_neg": 412,
+      "file": "neg_r4_s2.csv"
+    },
+    {
+      "ratio": 5,
+      "seed": 2,
+      "n_neg": 515,
+      "file": "neg_r5_s2.csv"
+    },
+    {
+      "ratio": 6,
+      "seed": 2,
+      "n_neg": 618,
+      "file": "neg_r6_s2.csv"
+    },
+    {
+      "ratio": 7,
+      "seed": 2,
+      "n_neg": 721,
+      "file": "neg_r7_s2.csv"
+    },
+    {
+      "ratio": 8,
+      "seed": 2,
+      "n_neg": 824,
+      "file": "neg_r8_s2.csv"
+    },
+    {
+      "ratio": 9,
+      "seed": 2,
+      "n_neg": 927,
+      "file": "neg_r9_s2.csv"
+    },
+    {
+      "ratio": 10,
+      "seed": 2,
+      "n_neg": 1030,
+      "file": "neg_r10_s2.csv"
+    },
+    {
+      "ratio": 1,
+      "seed": 3,
+      "n_neg": 103,
+      "file": "neg_r1_s3.csv"
+    },
+    {
+      "ratio": 2,
+      "seed": 3,
+      "n_neg": 206,
+      "file": "neg_r2_s3.csv"
+    },
+    {
+      "ratio": 3,
+      "seed": 3,
+      "n_neg": 309,
+      "file": "neg_r3_s3.csv"
+    },
+    {
+      "ratio": 4,
+      "seed": 3,
+      "n_neg": 412,
+      "file": "neg_r4_s3.csv"
+    },
+    {
+      "ratio": 5,
+      "seed": 3,
+      "n_neg": 515,
+      "file": "neg_r5_s3.csv"
+    },
+    {
+      "ratio": 6,
+      "seed": 3,
+      "n_neg": 618,
+      "file": "neg_r6_s3.csv"
+    },
+    {
+      "ratio": 7,
+      "seed": 3,
+      "n_neg": 721,
+      "file": "neg_r7_s3.csv"
+    },
+    {
+      "ratio": 8,
+      "seed": 3,
+      "n_neg": 824,
+      "file": "neg_r8_s3.csv"
+    },
+    {
+      "ratio": 9,
+      "seed": 3,
+      "n_neg": 927,
+      "file": "neg_r9_s3.csv"
+    },
+    {
+      "ratio": 10,
+      "seed": 3,
+      "n_neg": 1030,
+      "file": "neg_r10_s3.csv"
+    },
+    {
+      "ratio": 1,
+      "seed": 4,
+      "n_neg": 103,
+      "file": "neg_r1_s4.csv"
+    },
+    {
+      "ratio": 2,
+      "seed": 4,
+      "n_neg": 206,
+      "file": "neg_r2_s4.csv"
+    },
+    {
+      "ratio": 3,
+      "seed": 4,
+      "n_neg": 309,
+      "file": "neg_r3_s4.csv"
+    },
+    {
+      "ratio": 4,
+      "seed": 4,
+      "n_neg": 412,
+      "file": "neg_r4_s4.csv"
+    },
+    {
+      "ratio": 5,
+      "seed": 4,
+      "n_neg": 515,
+      "file": "neg_r5_s4.csv"
+    },
+    {
+      "ratio": 6,
+      "seed": 4,
+      "n_neg": 618,
+      "file": "neg_r6_s4.csv"
+    },
+    {
+      "ratio": 7,
+      "seed": 4,
+      "n_neg": 721,
+      "file": "neg_r7_s4.csv"
+    },
+    {
+      "ratio": 8,
+      "seed": 4,
+      "n_neg": 824,
+      "file": "neg_r8_s4.csv"
+    },
+    {
+      "ratio": 9,
+      "seed": 4,
+      "n_neg": 927,
+      "file": "neg_r9_s4.csv"
+    },
+    {
+      "ratio": 10,
+      "seed": 4,
+      "n_neg": 1030,
+      "file": "neg_r10_s4.csv"
+    }
+  ]
+}

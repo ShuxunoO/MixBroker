@@ -1,0 +1,187 @@
+
+======== 06:03:14 STEP 1a  sample negatives : exp1 native (count-mode roles, pool=68,419) ========
+[sampler] pos=103  deposit-pool=30823  withdraw-pool=44815  ratios=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  seeds=5
+  seed 0: drew 1030 unique (dep,wd) negatives -> sliced into 10 ratio files
+  seed 1: drew 1030 unique (dep,wd) negatives -> sliced into 10 ratio files
+  seed 2: drew 1030 unique (dep,wd) negatives -> sliced into 10 ratio files
+  seed 3: drew 1030 unique (dep,wd) negatives -> sliced into 10 ratio files
+  seed 4: drew 1030 unique (dep,wd) negatives -> sliced into 10 ratio files
+[sampler] wrote 50 neg files + manifest.json to /Shuxun/RelatedWork/MixBroker/output/7.3/negatives/exp1_native
+
+======== 06:03:15 STEP 1b  sample negatives : exp2 TC (flag-mode roles, pool=155,204) ========
+[sampler] pos=3808  deposit-pool=58534  withdraw-pool=107417  ratios=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  seeds=5
+  seed 0: drew 38080 unique (dep,wd) negatives -> sliced into 10 ratio files
+  seed 1: drew 38080 unique (dep,wd) negatives -> sliced into 10 ratio files
+  seed 2: drew 38080 unique (dep,wd) negatives -> sliced into 10 ratio files
+  seed 3: drew 38080 unique (dep,wd) negatives -> sliced into 10 ratio files
+  seed 4: drew 38080 unique (dep,wd) negatives -> sliced into 10 ratio files
+[sampler] wrote 50 neg files + manifest.json to /Shuxun/RelatedWork/MixBroker/output/7.3/negatives/exp2_tc
+
+======== 06:03:19 STEP 2   EXP1  native 42d  (N=68,419)  50 ten-fold runs ========
+[sweeper] feat=node_feature_normalized.csv N=68419 F=42
+  r1 s0  f1=0.771 aucpr=0.747 prec@.75=0.788 roc=0.749 (38.2s)
+  r1 s1  f1=0.792 aucpr=0.821 prec@.75=0.889 roc=0.803 (40.3s)
+  r1 s2  f1=0.787 aucpr=0.811 prec@.75=0.812 roc=0.796 (38.0s)
+  r1 s3  f1=0.735 aucpr=0.775 prec@.75=0.776 roc=0.744 (35.5s)
+  r1 s4  f1=0.727 aucpr=0.762 prec@.75=0.770 roc=0.764 (36.4s)
+  r2 s0  f1=0.590 aucpr=0.587 prec@.75=0.653 roc=0.709 (37.0s)
+  r2 s1  f1=0.661 aucpr=0.712 prec@.75=0.778 roc=0.798 (37.9s)
+  r2 s2  f1=0.715 aucpr=0.739 prec@.75=0.801 roc=0.808 (35.6s)
+  r2 s3  f1=0.633 aucpr=0.629 prec@.75=0.714 roc=0.738 (36.9s)
+  r2 s4  f1=0.676 aucpr=0.703 prec@.75=0.817 roc=0.782 (36.3s)
+  r3 s0  f1=0.518 aucpr=0.545 prec@.75=0.660 roc=0.715 (36.0s)
+  r3 s1  f1=0.549 aucpr=0.563 prec@.75=0.681 roc=0.728 (36.9s)
+  r3 s2  f1=0.631 aucpr=0.662 prec@.75=0.764 roc=0.785 (36.5s)
+  r3 s3  f1=0.529 aucpr=0.518 prec@.75=0.663 roc=0.695 (36.3s)
+  r3 s4  f1=0.589 aucpr=0.588 prec@.75=0.705 roc=0.739 (36.9s)
+  r4 s0  f1=0.507 aucpr=0.522 prec@.75=0.648 roc=0.750 (35.6s)
+  r4 s1  f1=0.583 aucpr=0.602 prec@.75=0.719 roc=0.780 (35.3s)
+  r4 s2  f1=0.619 aucpr=0.626 prec@.75=0.757 roc=0.797 (34.6s)
+  r4 s3  f1=0.488 aucpr=0.496 prec@.75=0.608 roc=0.693 (36.3s)
+  r4 s4  f1=0.543 aucpr=0.562 prec@.75=0.767 roc=0.739 (37.3s)
+  r5 s0  f1=0.450 aucpr=0.461 prec@.75=0.668 roc=0.715 (36.3s)
+  r5 s1  f1=0.528 aucpr=0.520 prec@.75=0.672 roc=0.737 (35.4s)
+  r5 s2  f1=0.560 aucpr=0.530 prec@.75=0.715 roc=0.757 (37.5s)
+  r5 s3  f1=0.474 aucpr=0.464 prec@.75=0.612 roc=0.701 (34.9s)
+  r5 s4  f1=0.475 aucpr=0.465 prec@.75=0.559 roc=0.735 (34.5s)
+  r6 s0  f1=0.446 aucpr=0.401 prec@.75=0.557 roc=0.699 (35.3s)
+  r6 s1  f1=0.454 aucpr=0.444 prec@.75=0.584 roc=0.683 (35.6s)
+  r6 s2  f1=0.524 aucpr=0.504 prec@.75=0.775 roc=0.738 (35.5s)
+  r6 s3  f1=0.492 aucpr=0.485 prec@.75=0.660 roc=0.730 (35.2s)
+  r6 s4  f1=0.466 aucpr=0.434 prec@.75=0.611 roc=0.726 (34.9s)
+  r7 s0  f1=0.397 aucpr=0.368 prec@.75=0.538 roc=0.695 (36.2s)
+  r7 s1  f1=0.437 aucpr=0.415 prec@.75=0.641 roc=0.693 (36.4s)
+  r7 s2  f1=0.507 aucpr=0.482 prec@.75=0.814 roc=0.720 (35.4s)
+  r7 s3  f1=0.509 aucpr=0.480 prec@.75=0.697 roc=0.746 (35.5s)
+  r7 s4  f1=0.472 aucpr=0.430 prec@.75=0.661 roc=0.711 (37.7s)
+  r8 s0  f1=0.404 aucpr=0.371 prec@.75=0.662 roc=0.685 (35.7s)
+  r8 s1  f1=0.399 aucpr=0.347 prec@.75=0.505 roc=0.690 (36.6s)
+  r8 s2  f1=0.427 aucpr=0.423 prec@.75=0.610 roc=0.733 (35.8s)
+  r8 s3  f1=0.427 aucpr=0.393 prec@.75=0.683 roc=0.701 (35.9s)
+  r8 s4  f1=0.408 aucpr=0.413 prec@.75=0.510 roc=0.707 (36.4s)
+  r9 s0  f1=0.399 aucpr=0.360 prec@.75=0.631 roc=0.676 (35.8s)
+  r9 s1  f1=0.413 aucpr=0.395 prec@.75=0.619 roc=0.719 (36.1s)
+  r9 s2  f1=0.425 aucpr=0.398 prec@.75=0.624 roc=0.728 (35.8s)
+  r9 s3  f1=0.392 aucpr=0.372 prec@.75=0.601 roc=0.697 (36.3s)
+  r9 s4  f1=0.380 aucpr=0.396 prec@.75=0.592 roc=0.737 (36.0s)
+  r10 s0  f1=0.367 aucpr=0.355 prec@.75=0.607 roc=0.668 (36.7s)
+  r10 s1  f1=0.403 aucpr=0.394 prec@.75=0.629 roc=0.710 (37.6s)
+  r10 s2  f1=0.382 aucpr=0.377 prec@.75=0.744 roc=0.720 (36.8s)
+  r10 s3  f1=0.371 aucpr=0.355 prec@.75=0.616 roc=0.719 (36.5s)
+  r10 s4  f1=0.343 aucpr=0.354 prec@.75=0.681 roc=0.680 (36.6s)
+[exp1_native_42d] done 50 configs in 1814.9s -> appended to /Shuxun/RelatedWork/MixBroker/output/7.3/aggregate/exp1_sweep.csv
+
+======== 06:33:39 STEP 3a  EXP2  TC 42d  (N=155,204)  50 ten-fold runs ========
+[sweeper] feat=node_feature_normalized.csv N=155204 F=42
+  r1 s0  f1=0.887 aucpr=0.966 prec@.75=0.968 roc=0.960 (72.4s)
+  r1 s1  f1=0.896 aucpr=0.967 prec@.75=0.964 roc=0.961 (64.3s)
+  r1 s2  f1=0.895 aucpr=0.963 prec@.75=0.966 roc=0.958 (64.8s)
+  r1 s3  f1=0.891 aucpr=0.962 prec@.75=0.962 roc=0.958 (64.9s)
+  r1 s4  f1=0.896 aucpr=0.964 prec@.75=0.967 roc=0.957 (64.3s)
+  r2 s0  f1=0.865 aucpr=0.944 prec@.75=0.968 roc=0.959 (69.4s)
+  r2 s1  f1=0.858 aucpr=0.942 prec@.75=0.974 roc=0.958 (67.2s)
+  r2 s2  f1=0.866 aucpr=0.946 prec@.75=0.970 roc=0.960 (66.4s)
+  r2 s3  f1=0.855 aucpr=0.940 prec@.75=0.963 roc=0.958 (66.8s)
+  r2 s4  f1=0.856 aucpr=0.940 prec@.75=0.969 roc=0.957 (67.6s)
+  r3 s0  f1=0.835 aucpr=0.929 prec@.75=0.975 roc=0.960 (72.0s)
+  r3 s1  f1=0.835 aucpr=0.925 prec@.75=0.968 roc=0.959 (72.2s)
+  r3 s2  f1=0.839 aucpr=0.925 prec@.75=0.976 roc=0.958 (69.7s)
+  r3 s3  f1=0.823 aucpr=0.919 prec@.75=0.976 roc=0.954 (68.9s)
+  r3 s4  f1=0.828 aucpr=0.923 prec@.75=0.975 roc=0.955 (71.8s)
+  r4 s0  f1=0.816 aucpr=0.912 prec@.75=0.979 roc=0.956 (70.6s)
+  r4 s1  f1=0.806 aucpr=0.907 prec@.75=0.975 roc=0.956 (72.8s)
+  r4 s2  f1=0.814 aucpr=0.916 prec@.75=0.977 roc=0.960 (71.6s)
+  r4 s3  f1=0.807 aucpr=0.910 prec@.75=0.975 roc=0.958 (70.9s)
+  r4 s4  f1=0.804 aucpr=0.902 prec@.75=0.969 roc=0.952 (71.4s)
+  r5 s0  f1=0.793 aucpr=0.897 prec@.75=0.976 roc=0.955 (73.5s)
+  r5 s1  f1=0.793 aucpr=0.898 prec@.75=0.971 roc=0.957 (75.0s)
+  r5 s2  f1=0.800 aucpr=0.896 prec@.75=0.974 roc=0.955 (75.2s)
+  r5 s3  f1=0.800 aucpr=0.898 prec@.75=0.976 roc=0.955 (75.0s)
+  r5 s4  f1=0.784 aucpr=0.890 prec@.75=0.976 roc=0.953 (72.7s)
+  r6 s0  f1=0.782 aucpr=0.886 prec@.75=0.976 roc=0.955 (76.3s)
+  r6 s1  f1=0.786 aucpr=0.884 prec@.75=0.974 roc=0.955 (76.8s)
+  r6 s2  f1=0.779 aucpr=0.879 prec@.75=0.972 roc=0.953 (75.9s)
+  r6 s3  f1=0.787 aucpr=0.886 prec@.75=0.976 roc=0.955 (85.2s)
+  r6 s4  f1=0.772 aucpr=0.873 prec@.75=0.973 roc=0.949 (76.7s)
+  r7 s0  f1=0.780 aucpr=0.873 prec@.75=0.975 roc=0.954 (78.7s)
+  r7 s1  f1=0.775 aucpr=0.873 prec@.75=0.974 roc=0.951 (77.8s)
+  r7 s2  f1=0.779 aucpr=0.876 prec@.75=0.976 roc=0.954 (77.5s)
+  r7 s3  f1=0.773 aucpr=0.876 prec@.75=0.972 roc=0.954 (80.7s)
+  r7 s4  f1=0.775 aucpr=0.875 prec@.75=0.975 roc=0.952 (80.6s)
+  r8 s0  f1=0.761 aucpr=0.865 prec@.75=0.974 roc=0.951 (82.0s)
+  r8 s1  f1=0.760 aucpr=0.857 prec@.75=0.970 roc=0.948 (81.3s)
+  r8 s2  f1=0.762 aucpr=0.859 prec@.75=0.970 roc=0.951 (81.4s)
+  r8 s3  f1=0.769 aucpr=0.873 prec@.75=0.977 roc=0.956 (79.2s)
+  r8 s4  f1=0.759 aucpr=0.864 prec@.75=0.972 roc=0.950 (80.4s)
+  r9 s0  f1=0.764 aucpr=0.867 prec@.75=0.978 roc=0.958 (85.6s)
+  r9 s1  f1=0.755 aucpr=0.859 prec@.75=0.977 roc=0.951 (82.9s)
+  r9 s2  f1=0.761 aucpr=0.857 prec@.75=0.970 roc=0.952 (83.4s)
+  r9 s3  f1=0.761 aucpr=0.855 prec@.75=0.973 roc=0.949 (83.9s)
+  r9 s4  f1=0.756 aucpr=0.850 prec@.75=0.975 roc=0.949 (79.7s)
+  r10 s0  f1=0.754 aucpr=0.841 prec@.75=0.972 roc=0.951 (82.0s)
+  r10 s1  f1=0.752 aucpr=0.846 prec@.75=0.974 roc=0.948 (82.4s)
+  r10 s2  f1=0.757 aucpr=0.853 prec@.75=0.973 roc=0.949 (82.1s)
+  r10 s3  f1=0.754 aucpr=0.849 prec@.75=0.973 roc=0.949 (82.4s)
+  r10 s4  f1=0.737 aucpr=0.834 prec@.75=0.968 roc=0.945 (83.1s)
+[exp2_tc_42d] done 50 configs in 3769.4s -> appended to /Shuxun/RelatedWork/MixBroker/output/7.3/aggregate/exp2_sweep.csv
+
+======== 07:36:36 STEP 3b  EXP2  TC 82d  (N=155,204)  50 ten-fold runs ========
+[sweeper] feat=node_feature_82d_normalized.csv N=155204 F=82
+  r1 s0  f1=0.901 aucpr=0.968 prec@.75=0.958 roc=0.964 (105.4s)
+  r1 s1  f1=0.915 aucpr=0.970 prec@.75=0.955 roc=0.968 (111.0s)
+  r1 s2  f1=0.906 aucpr=0.965 prec@.75=0.958 roc=0.962 (111.3s)
+  r1 s3  f1=0.912 aucpr=0.971 prec@.75=0.964 roc=0.969 (109.9s)
+  r1 s4  f1=0.905 aucpr=0.963 prec@.75=0.954 roc=0.962 (105.4s)
+  r2 s0  f1=0.875 aucpr=0.952 prec@.75=0.963 roc=0.968 (117.9s)
+  r2 s1  f1=0.881 aucpr=0.954 prec@.75=0.974 roc=0.970 (112.2s)
+  r2 s2  f1=0.885 aucpr=0.954 prec@.75=0.968 roc=0.968 (111.8s)
+  r2 s3  f1=0.872 aucpr=0.948 prec@.75=0.965 roc=0.967 (109.1s)
+  r2 s4  f1=0.867 aucpr=0.944 prec@.75=0.959 roc=0.962 (107.9s)
+  r3 s0  f1=0.858 aucpr=0.937 prec@.75=0.967 roc=0.967 (110.6s)
+  r3 s1  f1=0.853 aucpr=0.941 prec@.75=0.974 roc=0.968 (115.3s)
+  r3 s2  f1=0.851 aucpr=0.934 prec@.75=0.970 roc=0.965 (113.1s)
+  r3 s3  f1=0.854 aucpr=0.932 prec@.75=0.970 roc=0.966 (110.9s)
+  r3 s4  f1=0.851 aucpr=0.937 prec@.75=0.970 roc=0.964 (117.3s)
+  r4 s0  f1=0.849 aucpr=0.932 prec@.75=0.978 roc=0.969 (115.3s)
+  r4 s1  f1=0.839 aucpr=0.927 prec@.75=0.971 roc=0.967 (114.5s)
+  r4 s2  f1=0.834 aucpr=0.923 prec@.75=0.975 roc=0.967 (116.2s)
+  r4 s3  f1=0.836 aucpr=0.921 prec@.75=0.970 roc=0.968 (117.0s)
+  r4 s4  f1=0.828 aucpr=0.912 prec@.75=0.968 roc=0.960 (111.9s)
+  r5 s0  f1=0.827 aucpr=0.918 prec@.75=0.974 roc=0.967 (119.4s)
+  r5 s1  f1=0.829 aucpr=0.916 prec@.75=0.967 roc=0.968 (118.8s)
+  r5 s2  f1=0.830 aucpr=0.918 prec@.75=0.978 roc=0.968 (115.9s)
+  r5 s3  f1=0.833 aucpr=0.916 prec@.75=0.973 roc=0.968 (121.0s)
+  r5 s4  f1=0.820 aucpr=0.909 prec@.75=0.974 roc=0.966 (112.8s)
+  r6 s0  f1=0.819 aucpr=0.906 prec@.75=0.970 roc=0.966 (121.5s)
+  r6 s1  f1=0.820 aucpr=0.910 prec@.75=0.980 roc=0.966 (123.0s)
+  r6 s2  f1=0.818 aucpr=0.909 prec@.75=0.977 roc=0.967 (127.9s)
+  r6 s3  f1=0.817 aucpr=0.904 prec@.75=0.973 roc=0.965 (126.9s)
+  r6 s4  f1=0.805 aucpr=0.902 prec@.75=0.970 roc=0.964 (123.1s)
+  r7 s0  f1=0.810 aucpr=0.894 prec@.75=0.971 roc=0.967 (114.6s)
+  r7 s1  f1=0.803 aucpr=0.894 prec@.75=0.970 roc=0.965 (124.1s)
+  r7 s2  f1=0.810 aucpr=0.898 prec@.75=0.975 roc=0.964 (123.6s)
+  r7 s3  f1=0.815 aucpr=0.903 prec@.75=0.978 roc=0.968 (126.9s)
+  r7 s4  f1=0.805 aucpr=0.887 prec@.75=0.967 roc=0.960 (122.2s)
+  r8 s0  f1=0.799 aucpr=0.891 prec@.75=0.971 roc=0.965 (126.9s)
+  r8 s1  f1=0.797 aucpr=0.894 prec@.75=0.976 roc=0.964 (121.0s)
+  r8 s2  f1=0.790 aucpr=0.879 prec@.75=0.970 roc=0.961 (130.3s)
+  r8 s3  f1=0.807 aucpr=0.881 prec@.75=0.970 roc=0.963 (131.7s)
+  r8 s4  f1=0.792 aucpr=0.883 prec@.75=0.978 roc=0.960 (123.6s)
+  r9 s0  f1=0.789 aucpr=0.878 prec@.75=0.971 roc=0.964 (126.2s)
+  r9 s1  f1=0.791 aucpr=0.878 prec@.75=0.970 roc=0.960 (128.2s)
+  r9 s2  f1=0.795 aucpr=0.877 prec@.75=0.973 roc=0.961 (133.0s)
+  r9 s3  f1=0.795 aucpr=0.883 prec@.75=0.977 roc=0.962 (130.1s)
+  r9 s4  f1=0.786 aucpr=0.873 prec@.75=0.967 roc=0.961 (132.3s)
+  r10 s0  f1=0.778 aucpr=0.871 prec@.75=0.973 roc=0.965 (133.2s)
+  r10 s1  f1=0.783 aucpr=0.872 prec@.75=0.975 roc=0.961 (131.4s)
+  r10 s2  f1=0.785 aucpr=0.872 prec@.75=0.971 roc=0.962 (128.1s)
+  r10 s3  f1=0.778 aucpr=0.871 prec@.75=0.978 roc=0.965 (128.4s)
+  r10 s4  f1=0.782 aucpr=0.876 prec@.75=0.978 roc=0.962 (130.7s)
+[exp2_tc_82d] done 50 configs in 6000.8s -> appended to /Shuxun/RelatedWork/MixBroker/output/7.3/aggregate/exp2_sweep.csv
+
+======== 09:16:45 STEP 4   ANCHOR  native ORIGINAL unconstrained 1:1 (published reference) ========
+[sweeper] feat=node_feature_normalized.csv N=68419 F=42
+  r1 s0  f1=0.850 aucpr=0.879 prec@.75=0.868 roc=0.875 (34.6s)
+[native_original_1to1] done 1 configs in 34.6s -> appended to /Shuxun/RelatedWork/MixBroker/output/7.3/aggregate/anchor.csv
+
+======== 09:17:25 ALL DONE ========
