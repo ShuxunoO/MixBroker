@@ -1,0 +1,96 @@
+
+======== 11:33:10 STEP 0  build MIG (idempotent) ========
+accounts: 68419
+pools (4): ['0x12d66f87..', '0x47ce0c6e..', '0x910cbd52..', '0xa160cdab..']
+unique account-pool pairs: 85966  ->  bidirectional edges: 171932
+extended feature table: 68419 + 4 = 68423 rows, 46 feature cols
+DONE -> /Shuxun/RelatedWork/MixBroker/output/7.3/mig
+
+======== 11:33:15 STEP 1  sample negatives up to 1:100 (deposit->withdraw), pool=68,419 ========
+[sampler] pos=103  deposit-pool=30823  withdraw-pool=44815  ratios=[1, 2, 5, 10, 20, 50, 100]  seeds=5
+  seed 0: drew 10300 unique (dep,wd) negatives -> sliced into 7 ratio files
+  seed 1: drew 10300 unique (dep,wd) negatives -> sliced into 7 ratio files
+  seed 2: drew 10300 unique (dep,wd) negatives -> sliced into 7 ratio files
+  seed 3: drew 10300 unique (dep,wd) negatives -> sliced into 7 ratio files
+  seed 4: drew 10300 unique (dep,wd) negatives -> sliced into 7 ratio files
+[sampler] wrote 35 neg files + manifest.json to /Shuxun/RelatedWork/MixBroker/output/7.3/negatives/exp3_fixed_native
+
+======== 11:33:15 STEP 2  V0  LEAKY  (edge_index==edge_label_index, thr 0.75)  35 configs ========
+[fixed:leaky] N=68423 F=42 (leaky: edge_index==edge_label_index)
+  v0_leaky r1 s0  aucpr=0.796 roc=0.770 f1@.75=0.617 f1@cal=0.691 t*=0.46 (29.6s)
+  v0_leaky r1 s1  aucpr=0.822 roc=0.803 f1@.75=0.671 f1@cal=0.740 t*=0.42 (29.2s)
+  v0_leaky r1 s2  aucpr=0.843 roc=0.808 f1@.75=0.680 f1@cal=0.726 t*=0.47 (29.3s)
+  v0_leaky r1 s3  aucpr=0.791 roc=0.764 f1@.75=0.617 f1@cal=0.729 t*=0.36 (27.1s)
+  v0_leaky r1 s4  aucpr=0.789 roc=0.771 f1@.75=0.608 f1@cal=0.719 t*=0.39 (29.2s)
+  v0_leaky r2 s0  aucpr=0.696 roc=0.751 f1@.75=0.432 f1@cal=0.590 t*=0.48 (27.0s)
+  v0_leaky r2 s1  aucpr=0.743 roc=0.798 f1@.75=0.554 f1@cal=0.645 t*=0.41 (28.0s)
+  v0_leaky r2 s2  aucpr=0.745 roc=0.781 f1@.75=0.594 f1@cal=0.632 t*=0.39 (26.6s)
+  v0_leaky r2 s3  aucpr=0.733 roc=0.779 f1@.75=0.528 f1@cal=0.621 t*=0.49 (26.6s)
+  v0_leaky r2 s4  aucpr=0.713 roc=0.769 f1@.75=0.465 f1@cal=0.568 t*=0.43 (26.2s)
+  v0_leaky r5 s0  aucpr=0.486 roc=0.734 f1@.75=0.338 f1@cal=0.430 t*=0.45 (27.5s)
+  v0_leaky r5 s1  aucpr=0.549 roc=0.777 f1@.75=0.356 f1@cal=0.431 t*=0.40 (28.1s)
+  v0_leaky r5 s2  aucpr=0.556 roc=0.785 f1@.75=0.419 f1@cal=0.487 t*=0.41 (27.4s)
+  v0_leaky r5 s3  aucpr=0.570 roc=0.758 f1@.75=0.406 f1@cal=0.506 t*=0.43 (28.9s)
+  v0_leaky r5 s4  aucpr=0.500 roc=0.741 f1@.75=0.347 f1@cal=0.419 t*=0.40 (27.5s)
+  v0_leaky r10 s0  aucpr=0.394 roc=0.722 f1@.75=0.225 f1@cal=0.365 t*=0.40 (30.8s)
+  v0_leaky r10 s1  aucpr=0.393 roc=0.735 f1@.75=0.308 f1@cal=0.430 t*=0.36 (28.5s)
+  v0_leaky r10 s2  aucpr=0.417 roc=0.765 f1@.75=0.268 f1@cal=0.388 t*=0.39 (28.6s)
+  v0_leaky r10 s3  aucpr=0.431 roc=0.747 f1@.75=0.393 f1@cal=0.394 t*=0.42 (27.7s)
+  v0_leaky r10 s4  aucpr=0.416 roc=0.741 f1@.75=0.283 f1@cal=0.365 t*=0.40 (29.5s)
+  v0_leaky r20 s0  aucpr=0.209 roc=0.669 f1@.75=0.104 f1@cal=0.226 t*=0.40 (29.3s)
+  v0_leaky r20 s1  aucpr=0.288 roc=0.700 f1@.75=0.137 f1@cal=0.250 t*=0.41 (29.1s)
+  v0_leaky r20 s2  aucpr=0.297 roc=0.712 f1@.75=0.199 f1@cal=0.272 t*=0.42 (30.8s)
+  v0_leaky r20 s3  aucpr=0.282 roc=0.733 f1@.75=0.212 f1@cal=0.271 t*=0.40 (28.9s)
+  v0_leaky r20 s4  aucpr=0.288 roc=0.701 f1@.75=0.197 f1@cal=0.263 t*=0.41 (28.0s)
+  v0_leaky r50 s0  aucpr=0.167 roc=0.674 f1@.75=0.088 f1@cal=0.187 t*=0.31 (31.7s)
+  v0_leaky r50 s1  aucpr=0.150 roc=0.658 f1@.75=0.110 f1@cal=0.109 t*=0.39 (30.5s)
+  v0_leaky r50 s2  aucpr=0.210 roc=0.683 f1@.75=0.123 f1@cal=0.255 t*=0.35 (30.4s)
+  v0_leaky r50 s3  aucpr=0.198 roc=0.702 f1@.75=0.128 f1@cal=0.181 t*=0.44 (31.5s)
+  v0_leaky r50 s4  aucpr=0.180 roc=0.703 f1@.75=0.127 f1@cal=0.195 t*=0.35 (30.7s)
+  v0_leaky r100 s0  aucpr=0.077 roc=0.654 f1@.75=0.040 f1@cal=0.057 t*=0.42 (33.7s)
+  v0_leaky r100 s1  aucpr=0.088 roc=0.606 f1@.75=0.075 f1@cal=0.095 t*=0.43 (33.4s)
+  v0_leaky r100 s2  aucpr=0.103 roc=0.643 f1@.75=0.061 f1@cal=0.117 t*=0.41 (33.8s)
+  v0_leaky r100 s3  aucpr=0.111 roc=0.671 f1@.75=0.099 f1@cal=0.112 t*=0.45 (34.5s)
+  v0_leaky r100 s4  aucpr=0.128 roc=0.617 f1@.75=0.063 f1@cal=0.093 t*=0.50 (34.5s)
+[v0_leaky] done 35 configs in 1034.2s
+
+======== 11:50:36 STEP 3  V1/V2  MIG  (full MIG message passing; @0.75 and @calibrated)  35 configs ========
+[fixed:mig] N=68423 F=42 MIG edges=171932
+  mig r1 s0  aucpr=0.765 roc=0.746 f1@.75=0.713 f1@cal=0.715 t*=0.59 (103.6s)
+  mig r1 s1  aucpr=0.865 roc=0.821 f1@.75=0.750 f1@cal=0.745 t*=0.59 (100.6s)
+  mig r1 s2  aucpr=0.797 roc=0.783 f1@.75=0.695 f1@cal=0.721 t*=0.38 (102.8s)
+  mig r1 s3  aucpr=0.767 roc=0.711 f1@.75=0.666 f1@cal=0.684 t*=0.50 (102.1s)
+  mig r1 s4  aucpr=0.806 roc=0.774 f1@.75=0.673 f1@cal=0.723 t*=0.51 (107.3s)
+  mig r2 s0  aucpr=0.687 roc=0.739 f1@.75=0.571 f1@cal=0.620 t*=0.59 (103.5s)
+  mig r2 s1  aucpr=0.707 roc=0.780 f1@.75=0.543 f1@cal=0.639 t*=0.56 (98.4s)
+  mig r2 s2  aucpr=0.666 roc=0.769 f1@.75=0.600 f1@cal=0.611 t*=0.47 (99.9s)
+  mig r2 s3  aucpr=0.673 roc=0.751 f1@.75=0.531 f1@cal=0.626 t*=0.52 (105.2s)
+  mig r2 s4  aucpr=0.729 roc=0.759 f1@.75=0.580 f1@cal=0.586 t*=0.53 (122.9s)
+  mig r5 s0  aucpr=0.462 roc=0.718 f1@.75=0.393 f1@cal=0.458 t*=0.53 (101.2s)
+  mig r5 s1  aucpr=0.483 roc=0.732 f1@.75=0.414 f1@cal=0.463 t*=0.59 (99.3s)
+  mig r5 s2  aucpr=0.516 roc=0.775 f1@.75=0.413 f1@cal=0.488 t*=0.57 (99.5s)
+  mig r5 s3  aucpr=0.524 roc=0.761 f1@.75=0.485 f1@cal=0.455 t*=0.48 (104.0s)
+  mig r5 s4  aucpr=0.533 roc=0.751 f1@.75=0.472 f1@cal=0.504 t*=0.53 (104.9s)
+  mig r10 s0  aucpr=0.331 roc=0.698 f1@.75=0.288 f1@cal=0.332 t*=0.58 (108.6s)
+  mig r10 s1  aucpr=0.369 roc=0.765 f1@.75=0.319 f1@cal=0.333 t*=0.56 (103.9s)
+  mig r10 s2  aucpr=0.376 roc=0.751 f1@.75=0.323 f1@cal=0.367 t*=0.62 (108.5s)
+  mig r10 s3  aucpr=0.406 roc=0.744 f1@.75=0.312 f1@cal=0.349 t*=0.60 (104.2s)
+  mig r10 s4  aucpr=0.385 roc=0.732 f1@.75=0.399 f1@cal=0.382 t*=0.63 (101.5s)
+  mig r20 s0  aucpr=0.239 roc=0.701 f1@.75=0.230 f1@cal=0.239 t*=0.72 (100.8s)
+  mig r20 s1  aucpr=0.229 roc=0.712 f1@.75=0.246 f1@cal=0.253 t*=0.64 (97.3s)
+  mig r20 s2  aucpr=0.244 roc=0.739 f1@.75=0.242 f1@cal=0.240 t*=0.69 (96.7s)
+  mig r20 s3  aucpr=0.267 roc=0.722 f1@.75=0.268 f1@cal=0.258 t*=0.70 (97.4s)
+  mig r20 s4  aucpr=0.242 roc=0.701 f1@.75=0.203 f1@cal=0.214 t*=0.77 (98.7s)
+  mig r50 s0  aucpr=0.134 roc=0.684 f1@.75=0.129 f1@cal=0.115 t*=0.79 (105.2s)
+  mig r50 s1  aucpr=0.135 roc=0.669 f1@.75=0.110 f1@cal=0.124 t*=0.77 (104.9s)
+  mig r50 s2  aucpr=0.111 roc=0.673 f1@.75=0.145 f1@cal=0.123 t*=0.74 (101.3s)
+  mig r50 s3  aucpr=0.161 roc=0.688 f1@.75=0.198 f1@cal=0.210 t*=0.75 (96.8s)
+  mig r50 s4  aucpr=0.160 roc=0.731 f1@.75=0.155 f1@cal=0.143 t*=0.75 (97.0s)
+  mig r100 s0  aucpr=0.086 roc=0.664 f1@.75=0.104 f1@cal=0.108 t*=0.83 (104.7s)
+  mig r100 s1  aucpr=0.071 roc=0.638 f1@.75=0.096 f1@cal=0.077 t*=0.80 (103.5s)
+  mig r100 s2  aucpr=0.080 roc=0.705 f1@.75=0.115 f1@cal=0.069 t*=0.69 (103.0s)
+  mig r100 s3  aucpr=0.089 roc=0.710 f1@.75=0.085 f1@cal=0.118 t*=0.84 (100.2s)
+  mig r100 s4  aucpr=0.087 roc=0.692 f1@.75=0.072 f1@cal=0.086 t*=0.77 (98.5s)
+[mig] done 35 configs in 3588.1s
+
+======== 12:50:30 ALL DONE (fixed) ========

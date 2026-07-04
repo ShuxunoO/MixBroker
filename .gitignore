@@ -43,3 +43,5 @@ run_tc/timing.log
 run_tc/run_ours.log
 run_tc/Dataset/Graph/node_feature_normalized.csv
 run_tc/Dataset/Graph/node_feature_82d_normalized.csv
+
+/output/7.3/mig
